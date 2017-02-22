@@ -5,21 +5,21 @@ class A
 public:
 	A()
 	{
+		static int key = 0;
 		key++;
 		if (key > 1)
-		{
 			exit(1);
-		}
+		else
+			std::cout << "Hello from singleton" << std::endl;
+
 	}
-private:
-	int key = 0;
 };
 
 int main()
 {
 	A obj;
+	system("pause");
 	A obj1;
-	std::cout << "это программа не должна вывести" << std::endl;
 	system("pause");
 	return 0;
 }
