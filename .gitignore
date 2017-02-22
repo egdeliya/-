@@ -1,0 +1,14 @@
+*.VC
+*.vcxproj
+*.VC.db
+*.sln
+*.tlog
+*.lastbuildstate
+*.suo
+*.user
+*.pdb
+*.idb
+*.obj
+*.filters
+*.log
+*.ilk
